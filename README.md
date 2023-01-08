@@ -23,24 +23,14 @@ colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728' ,  '#9467bd', '#8c564b']
 explode= [0.1, 0, 0, 0, 0, 0]
 # wp=  {'linewidth': 0.5, 'edgecolor': 'green'}
 
-# fig = plt.figure(figsize = (16, 7), dpi=600)
 fig, ax = plt.subplots(figsize= (8, 7), dpi=600)
-ax.pie(popularity,
-        labels=Languages, 
-        colors=colors, 
-        shadow=True, 
-        explode=explode, 
-        autopct= "%1.1f%%")
-ax.legend(languages,
-        title = "Programming languages",
-        loc = "upper left",
-        bbox_to_anchor =(1, 0, 0.5, 1)
-    )
+ax.pie(popularity, labels=Languages,colors=colors,explode=explode, autopct= "%1.1f%%")
+
 ax.set_title("Popular programming language")
 ```
 
 <h2>Output</h2>
-<img src="https://user-images.githubusercontent.com/87891857/211190585-929bbf72-5132-4b3e-81e2-96d8d1f475f2.png" title="Optional title" width=50% height = 50%>
+<img src="https://user-images.githubusercontent.com/87891857/211193300-a4d06cf7-191e-4efe-b63a-e8848bc0ecdc.png" title="Optional title" width=50% height = 50%>
 <h5>When to use pie chart</h5>
 <p>
 To illustrate two main uses, consider the following:
