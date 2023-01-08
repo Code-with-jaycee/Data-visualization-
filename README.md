@@ -38,7 +38,16 @@ ax.legend(languages,
     )
 ax.set_title("Popular programming language")
 ```
+<h5>When to use pie chart</h5>
+<p>
+To illustrate two main uses, consider the following:
 
+- If it's more critical that your audience get the big picture of your data than the finer details of how the individual slices compare in size, then by all means use pie charts.
+
+- To emphasize the size or smallness of a certain portion of the whole.
+
+
+</p>
 <img src="https://user-images.githubusercontent.com/87891857/211190585-929bbf72-5132-4b3e-81e2-96d8d1f475f2.png" title="Optional title" width=50% height = 50%>
 <h4>Histogram</h4>
 <h4>Line Chart</h4>
