@@ -59,6 +59,8 @@ To illustrate two main uses, consider the following:
 
 * Markers (points) can be drawn in a diagram with the aid of the plot() function. The plot() function automatically constructs a line connecting two points.
 
+<h3>Plotting graph</h3>
+
 ```
 # read a dataframe. Data available in the folder
 data = pd.read_csv("Fifa_world_cup.csv")
@@ -69,8 +71,6 @@ fig = plt.figure(dpi=600)
 x = data["total attempts team1"]
 y = data["goal preventions team2"]
 
-m = data["conceded team1"]
-n = data["goal inside the penalty area team2"]
 
 pylab.plot(x, y,color='red', lw=0.5, marker='o') 
 
@@ -78,6 +78,22 @@ pylab.plot(x, y,color='red', lw=0.5, marker='o')
 # Output
 
 <img src="https://user-images.githubusercontent.com/87891857/211196697-6e5547a3-f3e1-416c-ae8c-bde73c52dd1d.png" title="Optional title" width=50% height = 50%>
+
+<h3>Drawing subgraphs</h3>
+
+```
+# The contents of the brackets represent (rows, columns, indexes)
+fig = plt.figure(dpi=600)
+pylab.subplot(1, 2, 1)  # (1st row, 2nd column, index 1 )
+pylab.plot(x, y,color='red', lw=0.25 ,marker="o", markerfacecolor='red' )
+
+pylab.subplot(2, 2, 2)  # (2nd row , 2nd column, index 2)
+pylab.plot(m, n, color='green', lw=0.25 ,marker="o", markerfacecolor='green')
+```
+
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211197293-009c7f7b-0327-42ac-a108-6608227cb7d4.png" alt="subgraphs" title="Any title">
 
 # 4. Adding a graph inside a graph
 # 5. Graph parameters - title, label, legend
