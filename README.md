@@ -81,6 +81,7 @@ pylab.plot(x, y,color='red', lw=0.5, marker='o')
 
 <h3>Drawing subgraphs</h3>
 
+- A subgraph is a graph where all of the edges and vertices belong to a smaller graph.
 ```
 # The contents of the brackets represent (rows, columns, indexes)
 fig = plt.figure(dpi=600)
@@ -93,7 +94,7 @@ pylab.plot(m, n, color='green', lw=0.25 ,marker="o", markerfacecolor='green')
 
 # Output
 
-<img src="https://user-images.githubusercontent.com/87891857/211197293-009c7f7b-0327-42ac-a108-6608227cb7d4.png" alt="subgraphs" title="Any title">
+<img src="https://user-images.githubusercontent.com/87891857/211197293-009c7f7b-0327-42ac-a108-6608227cb7d4.png" alt="subgraphs" title="Any title" width=50% height=50%>
 
 # 4. Adding a graph inside a graph
 # 5. Graph parameters - title, label, legend
