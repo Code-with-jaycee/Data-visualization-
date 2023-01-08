@@ -56,6 +56,29 @@ To illustrate two main uses, consider the following:
 <h4>Area Graph</h4><br>
 
 # 3. Plotting graphs and subgraphs
+
+* Markers (points) can be drawn in a diagram with the aid of the plot() function. The plot() function automatically constructs a line connecting two points.
+
+```
+# read a dataframe. Data available in the folder
+data = pd.read_csv("Fifa_world_cup.csv")
+data.head()
+
+# dpi produce high quality images
+fig = plt.figure(dpi=600)
+x = data["total attempts team1"]
+y = data["goal preventions team2"]
+
+m = data["conceded team1"]
+n = data["goal inside the penalty area team2"]
+
+pylab.plot(x, y,color='red', lw=0.5, marker='o') 
+
+```
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211196697-6e5547a3-f3e1-416c-ae8c-bde73c52dd1d.png" title="Optional title" width=50% height = 50%>
+
 # 4. Adding a graph inside a graph
 # 5. Graph parameters - title, label, legend
 # 6. Line graphs - line types, color and transparency
