@@ -1,6 +1,16 @@
 # Data-visualization-
 Practicing data visualization with python
 # Python Data visualization.
+<h2>imports</h2>
+
+```
+from matplotlib import pylab
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d.axes3d import Axes3D
+from numpy.random import randint
+```
 
 # 1. What is matplotlib?
 - this is an open source drawing library which supports rich drawing types
@@ -14,22 +24,9 @@ Practicing data visualization with python
 <h4>Scatter plot</h4>
 <h2><strong>pie Chart</strong></h2>
 <p>The size of the items (or "wedges") in one data series in a pie chart is proportional to the total number of those elements. Information in a pie chart is represented graphically as a fraction of the entire. The pie() method of the Matplotlib API produces a pie chart from an array of data.</p><br>
-<h4><b>Example:</b> A simple pie chart</h4>
 
-```
-Languages = 'Python', 'C/C++', 'PHP', 'C#', 'Java', 'Other languages'
-popularity = [29, 5.9, 6.2, 7.3,  19.1, 23.5]
-colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728' ,  '#9467bd', '#8c564b']
-explode= [0.1, 0, 0, 0, 0, 0]
-# wp=  {'linewidth': 0.5, 'edgecolor': 'green'}
 
-fig, ax = plt.subplots(figsize= (8, 7), dpi=600)
-ax.pie(popularity, labels=Languages,colors=colors,explode=explode, autopct= "%1.1f%%")
 
-ax.set_title("Popular programming language")
-```
-
-<h2>Output</h2>
 <img src="https://user-images.githubusercontent.com/87891857/211193300-a4d06cf7-191e-4efe-b63a-e8848bc0ecdc.png" title="Optional title" width=50% height = 50%>
 <h5>When to use pie chart</h5>
 <p>
@@ -67,3 +64,20 @@ To illustrate two main uses, consider the following:
 # 9. Radar chart, Histogram, Contour image
 # 10 3D surface image
 # 11 Practive example (pie chart)
+
+<h4><b>Example:</b> A simple pie chart</h4>
+
+```
+Languages = 'Python', 'C/C++', 'PHP', 'C#', 'Java', 'Other languages'
+popularity = [29, 5.9, 6.2, 7.3,  19.1, 23.5]
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728' ,  '#9467bd', '#8c564b']
+explode= [0.1, 0, 0, 0, 0, 0]
+# wp=  {'linewidth': 0.5, 'edgecolor': 'green'}
+
+fig, ax = plt.subplots(figsize= (8, 7), dpi=600)
+ax.pie(popularity, labels=Languages,colors=colors,explode=explode, autopct= "%1.1f%%")
+
+ax.set_title("Popular programming language")
+```
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211193300-a4d06cf7-191e-4efe-b63a-e8848bc0ecdc.png" title="Optional title" width=50% height = 50%>
