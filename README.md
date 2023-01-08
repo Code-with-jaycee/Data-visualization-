@@ -13,7 +13,7 @@ Practicing data visualization with python
 <h4>Bar Chart</h4>
 <h4>Scatter plot</h4>
 <h4>pie Chart</h4>
-<img src="https://user-images.githubusercontent.com/87891857/211190585-929bbf72-5132-4b3e-81e2-96d8d1f475f2.png" title="Optional title">
+<img src="https://user-images.githubusercontent.com/87891857/211190585-929bbf72-5132-4b3e-81e2-96d8d1f475f2.png" title="Optional title" width=80% height = 80%>
 <h4>Histogram</h4>
 <h4>Line Chart</h4>
 <h4>Area Graph</h4>
