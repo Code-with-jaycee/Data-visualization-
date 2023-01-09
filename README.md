@@ -171,6 +171,26 @@ axes[1].set_xlim([5, 10])
 <img src="https://user-images.githubusercontent.com/87891857/211248437-9869fca7-4c49-4f3b-b029-bef5bebb41ea.png" alt="Canvas grid" title="Optional title" width=50% height=50%>
 
 # 8. 2D plots - scatter, step, bar, fill_between
+
+```
+k  = np.linspace(1, 25, 25)
+fig , axes = plt.subplots(1, 4, figsize=(16, 5), dpi=600)
+axes[0].set_title("scatter")
+axes[0].scatter(k, k**2, color='red')
+axes[1].set_title("step plot")
+axes[1].step(k, k**3)
+
+axes[2].set_title("bar plot")
+axes[2].bar(k, k**4, width=0.8)
+
+axes[3].set_title("fill_between")
+axes[3].fill_between(k, k**4, color='green', alpha=0.5)
+```
+
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211249408-4e1aa135-079a-4fde-a04c-3cf258f4f32d.png" alt="2D plot" title="Optional title" >
+
 # 9. Radar chart, Histogram, Contour image
 # 10 3D surface image
 # 11 Practive example (pie chart)
