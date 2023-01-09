@@ -23,6 +23,7 @@ from numpy.random import randint
 <h2><strong>Bar Chart</strong></h2>
 <img src="https://user-images.githubusercontent.com/87891857/211253830-e8277ed8-59bb-4e1c-aff4-d38bddcb9ae5.png" alt="Bar chart" title="Optional title" width=50% height=50%>
 <h4>Scatter plot</h4>
+<img src="https://user-images.githubusercontent.com/87891857/211311370-30176bd4-b7e1-4ea2-9917-a3e6ea43a034.png" alt="Scatter plot" title="Optional title" width=50% height=50%>
 <h2><strong>pie Chart</strong></h2>
 <p>The size of the items (or "wedges") in one data series in a pie chart is proportional to the total number of those elements. Information in a pie chart is represented graphically as a fraction of the entire. The pie() method of the Matplotlib API produces a pie chart from an array of data.</p><br>
 
