@@ -53,7 +53,9 @@ To illustrate two main uses, consider the following:
 2. <b>Don't use very many slices.</b>There isn't a hard and fast rule here, so think carefully about the needs of your dataset as well as audience.
 3. <b>Organize your data in a useful way.</b>This takes into account the natural construct that we have of reading in a clockwise direction.
 4. <b>Remove the legend and provide direct labels for the information.</b>A direct labeling system eliminates the need to constantly refer back and forth between the legend as well as the information being shown. As provided  there is enough room for the labels to be legible, you should always try to label your segments directly with the value.
+   
 <h4>Histogram</h4>
+<img src="https://user-images.githubusercontent.com/87891857/211313451-ba688e5e-0d93-459f-81c3-621de32bfb9e.png" alt="Histogram" title="Optional title" width=50% height=50%>
 <h4>Line Chart</h4>
 <h4>Area Graph</h4><br>
 
