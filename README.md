@@ -134,7 +134,42 @@ axes.legend([ "team1 vs team2 goal preventions"])
 <img src="https://user-images.githubusercontent.com/87891857/211242225-b4b7c2e2-fad8-45b8-9914-3350998eb9f7.png" alt="Graph parameters" title="Any title" width=50% height =50%>
 
 # 6. Line graphs - line types, color and transparency
+
+```
+fig, axes = plt.subplots(dpi= 600)
+
+
+axes.plot(x, y, 
+        color='green', 
+        alpha=.7, 
+        lw=0.5,  # line width
+        marker="o", 
+        markerfacecolor="red")
+```
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211243864-31190109-c220-4b23-b126-34fdaedc3e9a.png" alt="Line graph" title="Optional title" width= 50% height=50%>
+
 # 7. Canvas grid and axis range
+
+```
+k  = np.linspace(1, 25, 25)
+n = np.linspace(1, 20, 25)
+
+fig, axes = plt.subplots(1, 2, dpi=400)
+
+axes[0].plot(k, k**2, n, n**3, lw=2)
+axes[0].grid(True)
+
+axes[1].plot(k, k**2, n, n**3, lw=2)
+axes[1].grid(True)
+axes[1].set_ylim([0, 8000])
+axes[1].set_xlim([5, 10])
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211248437-9869fca7-4c49-4f3b-b029-bef5bebb41ea.png" alt="Canvas grid" title="Optional title" width=50% height=50%>
+
 # 8. 2D plots - scatter, step, bar, fill_between
 # 9. Radar chart, Histogram, Contour image
 # 10 3D surface image
