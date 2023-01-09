@@ -20,7 +20,8 @@ from numpy.random import randint
 
 # 2. Types of plots
 
-<h4>Bar Chart</h4>
+<h2><strong>Bar Chart</strong></h2>
+<img src="https://user-images.githubusercontent.com/87891857/211253830-e8277ed8-59bb-4e1c-aff4-d38bddcb9ae5.png" alt="Bar chart" title="Optional title" width=50% height=50%>
 <h4>Scatter plot</h4>
 <h2><strong>pie Chart</strong></h2>
 <p>The size of the items (or "wedges") in one data series in a pie chart is proportional to the total number of those elements. Information in a pie chart is represented graphically as a fraction of the entire. The pie() method of the Matplotlib API produces a pie chart from an array of data.</p><br>
@@ -204,7 +205,29 @@ axes.plot(x, x, color='red', lw=3)
 ```
 # Output
 <img src="https://user-images.githubusercontent.com/87891857/211250863-22487732-7d38-45b2-a74d-8f1c899d057e.png" alt="Rada chart" title="Optional Title" width=50% height=50%>
+
 # 10 3D surface image
+
+```
+delta = 0.025
+x = np.arange(-3.0, 3.0, delta)
+y = np.arange(-2.0, 2.0, delta)
+
+X, Y = np.meshgrid(x, y)
+Z1 = np.exp(-X**2 - Y**2)
+Z2 = np.exp(-(X-1)**2 - (Y - 1)** 2)
+Z = (Z1 - Z2)* 2
+
+fig = plt.figure(figsize=(14, 6), dpi=400)
+# specify the 3D graphics to draw, with projection='3d'
+ax = fig.add_subplot(1, 2, 1, projection='3d')
+ax.plot_surface(X, Y, Z, rstride=7, cstride=4, linewidth=0, color="red")
+```
+
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211252226-6af0fd44-dfbe-449b-a19b-2676bbec8d7e.png" alt="3D graph" title="Optional title" width=50% height=50%>
+
 # 11 Practive example (pie chart)
 
 <h4><b>Example:</b> A simple pie chart</h4>
