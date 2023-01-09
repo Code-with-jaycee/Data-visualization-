@@ -57,6 +57,7 @@ To illustrate two main uses, consider the following:
 <h4>Histogram</h4>
 <img src="https://user-images.githubusercontent.com/87891857/211313451-ba688e5e-0d93-459f-81c3-621de32bfb9e.png" alt="Histogram" title="Optional title" width=50% height=50%>
 <h4>Line Chart</h4>
+<img src="https://user-images.githubusercontent.com/87891857/211315647-c50b6472-0be4-40d1-91a1-435147bc541d.png" alt="Line chart" title="Optional title" width=50% height=50%>
 <h4>Area Graph</h4><br>
 
 # 3. Plotting graphs and subgraphs
