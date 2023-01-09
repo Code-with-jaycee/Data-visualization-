@@ -29,7 +29,7 @@ Bar graphs are useful for comparing data across categories or viewing trends ove
 <img src="https://user-images.githubusercontent.com/87891857/211253830-e8277ed8-59bb-4e1c-aff4-d38bddcb9ae5.png" alt="Bar chart" title="Optional title" width=50% height=50%>
 <h4>Scatter plot</h4>
 
-<b>When to use Scatter plot</b>
+<b>When to use Scatter plot</b><br>
 You can use a scatter plot to see how two variables are related to one another. Two variables that work well together can be plotted on a scatter diagram to examine their relationship and determine if it is positive or negative.
 
 # Example
@@ -81,7 +81,7 @@ Line graphs are useful for monitoring trends over both finite and infinite time 
 # Example
 <img src="https://user-images.githubusercontent.com/87891857/211315647-c50b6472-0be4-40d1-91a1-435147bc541d.png" alt="Line chart" title="Optional title" width=50% height=50%>
 <h4>Area Graph</h4><br>
-<b>When to use Area graph</b>
+<b>When to use Area graph</b><br>
 Similarities between line graphs and area graphs are considerable. One or more groups' changes over time can be monitored with their help. When you need to monitor the evolution of a single category that consists of multiple subcategories, an area graph is the way to go (for example public and private groups).
 
 # Example
