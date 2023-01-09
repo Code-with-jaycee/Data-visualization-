@@ -112,7 +112,26 @@ axes2.plot(m, n, color='green', lw=0.25 ,marker="o", markerfacecolor='green')
 ```
 # Output
 <img src="https://user-images.githubusercontent.com/87891857/211240499-98bddf1c-8e6a-45e4-8120-2294ea55fe96.png" alt="graph inside a graph" title="Any title" width=50% height = 50%>
+
 # 5. Graph parameters - title, label, legend
+
+```
+i = data["goal preventions team1"]
+j = data["goal preventions team2"]
+
+ax.legend(["Label1", "label2"])
+fig, axes = plt.subplots(dpi= 600)
+axes.set_xlabel('goal preventions team1') # x axis label
+axes.set_ylabel('goal preventions team2') # y axis label
+axes.set_title("Fifa World Cup") # Adding title
+
+
+axes.plot(i, j, color='green', lw=0.25 ,marker="o", markerfacecolor='red')
+axes.legend([ "team1 vs team2 goal preventions"])
+```
+
+# Output
+
 # 6. Line graphs - line types, color and transparency
 # 7. Canvas grid and axis range
 # 8. 2D plots - scatter, step, bar, fill_between
