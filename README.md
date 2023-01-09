@@ -192,6 +192,18 @@ axes[3].fill_between(k, k**4, color='green', alpha=0.5)
 <img src="https://user-images.githubusercontent.com/87891857/211249408-4e1aa135-079a-4fde-a04c-3cf258f4f32d.png" alt="2D plot" title="Optional title" >
 
 # 9. Radar chart, Histogram, Contour image
+
+```
+fig = plt.figure(figsize=(6, 6), dpi=400)
+axes = fig.add_axes([0.0, 0.0, 6, 1], polar=True)
+
+x = np.linspace(0, 2 * np.pi, 100)
+
+
+axes.plot(x, x, color='red', lw=3)
+```
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211250863-22487732-7d38-45b2-a74d-8f1c899d057e.png" alt="Rada chart" title="Optional Title" width=50% height=50%>
 # 10 3D surface image
 # 11 Practive example (pie chart)
 
