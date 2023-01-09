@@ -21,8 +21,16 @@ from numpy.random import randint
 # 2. Types of plots
 
 <h2><strong>Bar Chart</strong></h2>
+<b>When to use Bar Charts</b>
+
+Bar graphs are useful for comparing data across categories or viewing trends over time. However, bar graphs excel at measuring change over time when the changes are significant.
+
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211253830-e8277ed8-59bb-4e1c-aff4-d38bddcb9ae5.png" alt="Bar chart" title="Optional title" width=50% height=50%>
 <h4>Scatter plot</h4>
+<b>When to use Scatter plot</b>
+You can use a scatter plot to see how two variables are related to one another. Two variables that work well together can be plotted on a scatter diagram to examine their relationship and determine if it is positive or negative.
+
 <img src="https://user-images.githubusercontent.com/87891857/211311370-30176bd4-b7e1-4ea2-9917-a3e6ea43a034.png" alt="Scatter plot" title="Optional title" width=50% height=50%>
 <h2><strong>pie Chart</strong></h2>
 <p>The size of the items (or "wedges") in one data series in a pie chart is proportional to the total number of those elements. Information in a pie chart is represented graphically as a fraction of the entire. The pie() method of the Matplotlib API produces a pie chart from an array of data.</p><br>
@@ -57,8 +65,16 @@ To illustrate two main uses, consider the following:
 <h4>Histogram</h4>
 <img src="https://user-images.githubusercontent.com/87891857/211313451-ba688e5e-0d93-459f-81c3-621de32bfb9e.png" alt="Histogram" title="Optional title" width=50% height=50%>
 <h4>Line Chart</h4>
+<b>When to use line graph</b><br>
+Line graphs are useful for monitoring trends over both finite and infinite time frames. Line graphs are preferable to bar graphs when the differences are minimal. Changes over time for multiple groups can be compared using line graphs.
+
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211315647-c50b6472-0be4-40d1-91a1-435147bc541d.png" alt="Line chart" title="Optional title" width=50% height=50%>
 <h4>Area Graph</h4><br>
+<b>When to use Area graph</b>
+Similarities between line graphs and area graphs are considerable. One or more groups' changes over time can be monitored with their help. When you need to monitor the evolution of a single category that consists of multiple subcategories, an area graph is the way to go (for example public and private groups).
+
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211316830-8aeccfe0-4374-4cee-87c1-6f958e187791.png" alt="Area graph" title="optional title" width=50% height=50%>
 
 # 3. Plotting graphs and subgraphs
