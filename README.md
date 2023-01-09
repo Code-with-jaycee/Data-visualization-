@@ -131,6 +131,7 @@ axes.legend([ "team1 vs team2 goal preventions"])
 ```
 
 # Output
+<img src="https://user-images.githubusercontent.com/87891857/211242225-b4b7c2e2-fad8-45b8-9914-3350998eb9f7.png" alt="Graph parameters" title="Any title" width=50% height =50%>
 
 # 6. Line graphs - line types, color and transparency
 # 7. Canvas grid and axis range
