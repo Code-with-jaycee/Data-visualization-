@@ -84,6 +84,9 @@ pylab.plot(x, y,color='red', lw=0.5, marker='o')
 - A subgraph is a graph where all of the edges and vertices belong to a smaller graph.
 ```
 # The contents of the brackets represent (rows, columns, indexes)
+
+m = data["conceded team1"]
+n = data["goal inside the penalty area team2"]
 fig = plt.figure(dpi=600)
 pylab.subplot(1, 2, 1)  # (1st row, 2nd column, index 1 )
 pylab.plot(x, y,color='red', lw=0.25 ,marker="o", markerfacecolor='red' )
@@ -97,6 +100,18 @@ pylab.plot(m, n, color='green', lw=0.25 ,marker="o", markerfacecolor='green')
 <img src="https://user-images.githubusercontent.com/87891857/211197293-009c7f7b-0327-42ac-a108-6608227cb7d4.png" alt="subgraphs" title="Any title" width=50% height=50%>
 
 # 4. Adding a graph inside a graph
+
+```
+fig = plt.figure(dpi=600)
+axes1 = fig.add_axes([0.1, 0.1, 0.8, 0.8]) # left , right, width, height
+axes2 = fig.add_axes([0.2, 0.5, 0.2, 0.3])
+
+axes1.plot(x, y,color='red', lw=0.25 ,marker="o", markerfacecolor='red')
+
+axes2.plot(m, n, color='green', lw=0.25 ,marker="o", markerfacecolor='green')
+```
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211240499-98bddf1c-8e6a-45e4-8120-2294ea55fe96.png" alt="graph inside a graph" title="Any title" width=50% height = 50%>
 # 5. Graph parameters - title, label, legend
 # 6. Line graphs - line types, color and transparency
 # 7. Canvas grid and axis range
