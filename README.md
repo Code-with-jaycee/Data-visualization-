@@ -28,15 +28,19 @@ Bar graphs are useful for comparing data across categories or viewing trends ove
 # Example
 <img src="https://user-images.githubusercontent.com/87891857/211253830-e8277ed8-59bb-4e1c-aff4-d38bddcb9ae5.png" alt="Bar chart" title="Optional title" width=50% height=50%>
 <h4>Scatter plot</h4>
+
 <b>When to use Scatter plot</b>
 You can use a scatter plot to see how two variables are related to one another. Two variables that work well together can be plotted on a scatter diagram to examine their relationship and determine if it is positive or negative.
 
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211311370-30176bd4-b7e1-4ea2-9917-a3e6ea43a034.png" alt="Scatter plot" title="Optional title" width=50% height=50%>
 <h2><strong>pie Chart</strong></h2>
+
+
 <p>The size of the items (or "wedges") in one data series in a pie chart is proportional to the total number of those elements. Information in a pie chart is represented graphically as a fraction of the entire. The pie() method of the Matplotlib API produces a pie chart from an array of data.</p><br>
 
 
-
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211193300-a4d06cf7-191e-4efe-b63a-e8848bc0ecdc.png" title="Optional title" width=50% height = 50%>
 <h5>When to use pie chart</h5>
 <p>
@@ -63,6 +67,12 @@ To illustrate two main uses, consider the following:
 4. <b>Remove the legend and provide direct labels for the information.</b>A direct labeling system eliminates the need to constantly refer back and forth between the legend as well as the information being shown. As provided  there is enough room for the labels to be legible, you should always try to label your segments directly with the value.
    
 <h4>Histogram</h4>
+
+<b>When to use histogram</b>
+
+One common type of graph is the histogram. It's a handy tool for summarizing interval-scaled data, whether those measurements are continuous or discontinuous. It's a useful way to show the key characteristics of the data's distribution.
+
+# Example
 <img src="https://user-images.githubusercontent.com/87891857/211313451-ba688e5e-0d93-459f-81c3-621de32bfb9e.png" alt="Histogram" title="Optional title" width=50% height=50%>
 <h4>Line Chart</h4>
 <b>When to use line graph</b><br>
